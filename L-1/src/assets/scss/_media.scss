@@ -1,0 +1,156 @@
+@media(max-width:576px){
+.bg-header-cont{
+  position:static;
+}
+.main-screen{
+  text-align: center;
+}
+.main-text{
+  margin-bottom: 49px;
+}
+.backround-header{
+  border-bottom: 1px solid;
+  border-image: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+}
+.link-head{
+  text-align: left;
+}
+.brg-bar{
+  color:$white;
+  &:hover{
+    background:none;
+  }
+}
+.main{
+  padding: 50px 0 52px 0;
+}
+
+.cards{
+  flex-wrap: wrap;
+  margin:40px 0 35px 0;
+  &__column{
+    margin-bottom: 41px;
+    &__name{
+      margin:37px 0 9px 0;
+    }
+    &__description{
+      margin:0;
+    }
+  }
+}
+    
+.portfolio li{
+        width: 50%;
+    }
+.portfolio-img{
+  width: 100%;
+}
+.portfolio-descr{
+  padding-top: 46px;
+    }
+.descr{
+  font-family:$base-ff;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 21px;
+  text-align: center;
+  width: 100%;
+}
+.descr1{
+  font-family:$base-ff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+}
+.portfolio-photo{
+  height: 144px;
+}
+.employee{
+    margin: 34px 0 41px 0;
+    &-column-photo{
+      width: 100%;
+      height: 228px;
+    }
+    &-photo{
+        width: 100%;
+        }
+        &-name{
+        margin-top:25px;
+        }
+        &-review{
+        margin:38px 0 55px 0;
+        }
+        &-column{
+        margin-bottom: 49px;
+        }
+        &-column:last-child{
+    margin-bottom: 0;
+        }
+    }
+    .icons-card{
+    margin:0;
+    }
+
+.carousel-column{
+        flex-direction: column;
+      }
+      .carousel-img{
+        width: 100%;
+        height: 100%;
+      }
+      .slide-content{
+        width: 100%;
+        height: 326px;
+        padding:23px 25px 0 25px;
+     
+    .slide-content-descr{
+          text-align: center;
+          font-size: 24px;
+        }
+        &-name{
+          margin:24px 0 95px 0;
+          text-align: center;
+          font-size: 12px;
+        }
+      }
+.action{
+    margin:106px 0 45px 0;
+    box-sizing: border-box;
+    &-description{
+        font-family: $base-ff;
+        margin:22px 0 11px 0;
+        width: 100%;
+    }
+    &-name{
+        font-family: $base-ff;
+        width: 100%;
+        margin: 0;
+    }
+}
+    .btn-action{
+        width: 100%;
+        height: 80px;
+      }
+    .bg-prefooter{
+        padding:34px 0 33px 0;
+      }
+    .prefooter-name{
+        margin-bottom: 37px;
+        &-description{
+          margin-bottom: 0;
+        }
+      }
+    .social{
+        margin: 69px 0 59px 0;
+      }
+.bg-footer{
+        padding:29px 0 6px 0;
+      }
+    .icon-twitter{
+        margin:0 16px;
+      }
+    .footer-name{
+        margin-bottom: 22px;
+      }
+  }
