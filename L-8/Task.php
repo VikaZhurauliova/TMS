@@ -37,7 +37,9 @@ if ($name) {
         }
     }
 }
+
 ?>
+
 
 <!doctype html>
 <html lang="en">
@@ -50,22 +52,22 @@ if ($name) {
 <body>
 <div class="container">
     <form action="" method="POST">
-<!--               <div class="form-group">
+               <div class="form-group">
             <label>Enter country</label>
             <select  name="country" class="form-control">
-            <?php /*foreach ($data as $key => $country) : */?>
-                <?php /*if ($_POST['country'] == $key ) : */?>
-                <option selected value="<?php /*= $key */?>"><?php /*= $country[4] */?></option>
-                <?php /*else: */?>
-                <option value="<?php /*= $key */?>"><?php /*= $country[4] */?></option>
-                <?php /*endif; */?>
-                <?php /*endforeach; */?>
+            <?php foreach ($data as $key => $people) : ?>
+                <?php if ($country == $key ) : ?>
+                <option selected value="<?= $key ?>"><?= $people[4] ?></option>
+                <?php else: ?>
+                <option value="<?= $key ?>"><?= $people[4] ?></option>
+                <?php endif; ?>
+                <?php endforeach; ?>
             </select>
-        </div>-->
-        <div class="form-group">
+        </div>
+<!--        <div class="form-group">
             <label>Enter country</label>
             <input type="text" name="country" class="form-control" placeholder="Enter country">
-        </div>
+        </div>-->
         <div class="form-group">
             <label>Enter name</label>
             <input type="text" name="name" class="form-control" placeholder="Enter name">
